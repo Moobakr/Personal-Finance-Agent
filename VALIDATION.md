@@ -27,10 +27,17 @@ were replaced with the configurable free-model router and a requests-based stock
 client respectively.
 
 A fresh Windows Python 3.12 virtual environment installed the baseline requirements,
-passed pip check and passed all 121 tests. Linux CI is configured to run on GitHub;
-its result is recorded after the remote run completes.
-The public deployment is considered verified only after its actual URL loads,
-its shared-key AI responds, and independent visitor sessions are checked.
+passed pip check and passed all 121 tests. The same 121-test suite and pip check
+also passed on Ubuntu with Python 3.12 in [GitHub Actions](https://github.com/Moobakr/Personal-Finance-Agent/actions/runs/39318742653).
+
+The [public Streamlit deployment](https://moobakr-personal-finance-agent.streamlit.app/)
+loaded successfully, and an unauthenticated HTTP request returned 200 without a
+login redirect. Shared-key AI returned advice from the deployed app. In two
+independent browser sessions, adding a fictional transaction increased one
+workspace to 11 records while the other remained at 10 after refresh. Reset
+restored the first workspace to the original 10 records. The hosted currency
+converter also returned a live USD-to-EGP rate, and its stock Fetch button
+returned an AAPL completed daily close from Yahoo Finance.
 
 ## Boundaries
 

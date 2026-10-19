@@ -6,8 +6,10 @@ OpenRouter advice grounded in calculated totals and a local knowledge base.
 
 ## Try it
 
-The public Streamlit deployment is being prepared. Its live URL will be added here
-once the deployed app has been verified. You can run the same demo locally:
+**[Open the live demo](https://moobakr-personal-finance-agent.streamlit.app/)**
+
+Hosted free on Streamlit Community Cloud. Shared AI advice is enabled with the
+request limits described below. You can also run the same demo locally:
 
 ```powershell
 python -m venv .venv
