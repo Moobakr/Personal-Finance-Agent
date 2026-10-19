@@ -1,0 +1,11 @@
+﻿id,date,merchant,amount,currency,description,category
+salary,2026-10-01,Example Employer,25000.00,EGP,Monthly salary,
+rent,2026-10-02,Example Landlord,-6500.00,EGP,Monthly rent,Bills
+groceries,2026-10-03,Example Market,-1450.00,EGP,Weekly groceries,Food & Dining
+transport,2026-10-04,Uber,-220.00,EGP,Commute,Transport
+internet,2026-10-05,Example Internet,-400.00,EGP,Home internet,Bills
+health,2026-10-06,Example Pharmacy,-320.00,EGP,Health essentials,Health
+coffee,2026-10-07,Example Cafe,-90.00,EGP,Coffee and lunch,Food & Dining
+freelance,2026-10-01,Example Client,600.00,USD,Freelance income,
+subscription,2026-10-05,Example Streaming,-15.00,USD,Monthly subscription,Subscriptions
+books,2026-10-08,Example Bookshop,-35.00,USD,Books,Shopping

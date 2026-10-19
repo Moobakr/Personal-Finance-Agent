@@ -1,0 +1,2 @@
+-r requirements.txt
+# Stock lookup uses requests from the baseline requirements; no extra package needed.
